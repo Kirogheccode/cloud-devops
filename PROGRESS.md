@@ -8,18 +8,18 @@ Tick these off as you go. Each checkpoint has a **verification command** — do 
 
 ## Module 00 — Prerequisites
 
-- [ ] AWS CLI v2 installed · `aws --version`
-- [ ] Terraform **≥ 1.10** installed · `terraform version`
-- [ ] Docker Desktop running · `docker ps`
-- [ ] kubectl installed · `kubectl version --client`
-- [ ] Helm installed · `helm version`
-- [ ] Ansible installed (WSL2 on Windows) · `ansible --version`
-- [ ] AWS credentials working · `aws sts get-caller-identity`
-- [ ] **Budget alarm set at $25** ⚠️
-- [ ] EC2 key pair created · `ls ~/.ssh/ivolve-key.pem`
-- [ ] Public IP noted · `curl -s https://checkip.amazonaws.com`
-- [ ] GitHub fine-grained PAT created (Contents: read+write)
-- [ ] Application source cloned into `workspace/src/`
+- [X] AWS CLI v2 installed · `aws --version`
+- [X] Terraform **≥ 1.10** installed · `terraform version`
+- [X] Docker Desktop running · `docker ps`
+- [X] kubectl installed · `kubectl version --client`
+- [X] Helm installed · `helm version`
+- [X] Ansible installed (WSL2 on Windows) · `ansible --version`
+- [X] AWS credentials working · `aws sts get-caller-identity`
+- [X] **Budget alarm set at $25** ⚠️
+- [X] EC2 key pair created · `ls ~/.ssh/ivolve-key.pem`
+- [X] Public IP noted · `curl -s https://checkip.amazonaws.com`
+- [X] GitHub fine-grained PAT created (Contents: read+write)
+- [X] Application source cloned into `workspace/src/`
 
 **Checkpoint:** all seven tools report a version.
 
